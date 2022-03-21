@@ -46,7 +46,6 @@ export const keyboardSlice = createSlice({
             }
         },
         openParenthesis: (state) => {
-            // TODO Try to do the actual google parenthesis
             state.operation += '(';
             state.openedParenthesis++;
         },
