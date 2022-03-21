@@ -19,3 +19,7 @@ This calculator can handle basic arithmetic operators :
 It can also handle mathematic priorities with parentheses.
 
 A calculation history is available in a dropdown.
+
+## Tests
+
+Launch tests using `php ./vendor/bin/phpunit`
