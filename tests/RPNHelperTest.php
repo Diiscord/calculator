@@ -46,7 +46,7 @@ class RPNHelperTest extends TestCase
         '2*2*3' => 12,
         '6/2*3' => 9,
         '(1+1)*2' => 4,
-        // '(1+1)*(2+4)' => 12,
+        '(1+1)*(2+4)' => 12,
     ];
 
     public $RPNadditionTests = [
