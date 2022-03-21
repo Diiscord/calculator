@@ -6,6 +6,7 @@ A simple calculator for a technical test.
 ## Installation
 
 Compile React app : `yarn encore production`
+
 Start server : `symfony server:start`
 
 The app is on : http://localhost:8000/
