@@ -9,7 +9,6 @@ export const fetchUsers = createAsyncThunk(
         for (let i = 0; i < openedParenthesis; i++) {
             closedOperation += ')';
         }
-        console.log(closedOperation)
 
         const encodedOperation = encodeURIComponent(closedOperation);
         const response = await fetch(`/api/compute/?operation=${encodedOperation}`)
